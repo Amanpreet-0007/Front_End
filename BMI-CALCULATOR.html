@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class=git"no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title >BMI Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <script src = "BMI-CALCULATOR.js"></script>
+    </head>
+    <body>
+        <h1 class="text-red-500 text-5xl text-center"> What is your BMI?</h1>
+        <br>
+        <br>
+        <div class = "text-center text-2xl">
+        <label for="weight"> Please Enter Weight (in kg):</label>
+        </div>
+        <div class="text-center">
+        <input type="number" id="weight" placeholder="Enter Weight" class="text-center">
+        </div>
+        <br>
+        <br>
+        <div class = "text-center text-2xl">
+        <label for="height"> Please enter height:</label>
+        </div>
+        <div class="text-center">
+        <input type="number" id="height" placeholder="Enter Height" class="text-center">
+        </div>
+        <br>
+        <br>
+        <div class="text-center text-xl">
+        <button onclick="calculateBMI()" class = "text-center"> Calculate</button>
+        <p id="result" class="text-center font-bold "></p>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>
